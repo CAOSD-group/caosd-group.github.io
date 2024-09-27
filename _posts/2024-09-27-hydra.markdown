@@ -1,0 +1,38 @@
+---
+layout: post
+title: Hydra feature modelling
+date: 2024-09-27 00:00:00 +0300
+description: A tool to feature modelling for Software Product Line.
+# Add post description (optional)
+img: hydra.png # Add image post (optional)
+tags: [Programming, Learn] # add tag
+---
+A tool to feature modelling for Software Product Line.
+
+The goal of Software Product Line (SPL) is to create the appropriate infrastructure for facilitate the quick development of similar software systems in the same market segment. Since the products of a product line are similar between them, they share several commonalities but also they have some variations among them [^1].
+
+The analysis and specification of which elements are common and which ones are variable within the set of products of the SPL is the main cornerstone in the design of the SPL. In order to perform this task are often used the feature models [2, 3, 4]. These models decompose hierarchically the characteristics of the products in a tree form. A feature is defined generically as a system visible element of interest to anyone who interacts with the system, either an end user or a software developer [^2]. For example, a feature of a vehicle would be the colour of the vehicle. A feature can be decomposed into several sub-features that can be mandatory, optional or alternative.
+
+A specific product line configuration or features selection must follow the rules of the feature model. For instance, in a set of mutually exclusive alternatives, such as the colour of a vehicle, only one alternative among all the possibilities must be selected. There are some restrictions that can not be modelled using the basic syntax of feature models. An example of this kind of restrictions is the implication restrictions, which specify that the selection of a feature requires the selection of another feature.
+
+These restrictions are usually defined externally to the feature model, using some kind of additional formalism as propositional logic. So, a new challenge in the feature modelling is the validation of the configurations respect to these external constraints. Finally, in recent years has been added to the feature models a simple but important concept, the clonable features [^4], which are features that can appear with a different number or cardinality in a product.
+
+However, currently there is not any tool with the following characteristics together: (1) A graphical interface, friendly that, as far as possible, assists to the user in the creation of configurations; (2) Supporting modelling and configuration of clonable features; (3) Allowing the specification of external constraints between features, including clonable features; (4) Be able to determine whether a particular configuration is valid, i.e. not only follow the syntax rules of the feature models, but also external constraints are satisfied. These external constraints may be clonable features defined on.
+
+To achieve these limitations of current tools for modelling features, we have developed Hydra. Hydra is a tool for feature modelling that provides: (1) A fully graphical and user friendly editor for the design of feature models; (2) A textual editor with a syntax for specifying restrictions between features; (3) A graphical, assisted and user friendly editor for the creation of configurations feature models; (4) A validator that checks if the created configurations satisfy the constraints defined for the feature model.
+
+Furthermore, Hydra fully supports the clonable feature modelling. This make possible to specify clonables features at level model and at configuration level. It is also possible to define restrictions involving clonables features and to validating these restrictions. Hydra is implemented as a plug-in for Eclipse and is based on standards tools within the modelling community, such as Ecore [^5] or GMF [^6], which promotes interoperability with other tools.
+
+[Go to page](https://caosd.lcc.uma.es/hyndra/)
+
+[^1]: Klaus Pohl, GÄunter BÄockle, and Frank J. van der Linden. Software Product Line Engineering: Foundations, Principles and Techniques. Springer, 1 edition, 9 2005.
+
+[^2]: K. Kang, S. Cohen, J. Hess, W. Novak, and S. Peterson. Feature-oriented domain analysis (FODA) feasibility study. Technical Report CMU/SEI-90-TR-21, Software Engineering Institute, Carnegie Mellon University, November 1990.
+
+[^3]: Danilo Beuche, Holger Papajewski, and Wolfgang Schroeder-Preikschat. Variability management with feature models. In Software Variability Management Workshop, pages 72-83, February 2003.
+
+[^4]: Krzysztof Czarnecki, Simon Helsen, and Ulrich W. Eisenecker. Formalizing cardinality-based feature models and their specialization. Software Process: Improvement and Practice, 10(1):7-29, 2005.
+
+[^5]: Dave Steinberg, Frank Budinsky, Marcelo Paternostro, and Ed Merks. EMF: Eclipse Modeling Framework (2nd Edition). Addison-Wesley Professional, 2 edition, 12 2008.
+
+[^6]: Richard C. Gronback. Eclipse modeling project : a domain-specific language toolkit. Addison-Wesley, 1 edition, April 2009.

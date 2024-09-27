@@ -1,0 +1,18 @@
+---
+layout: post
+title: vEXgine UMA
+date: 2024-09-27 00:00:00 +0300
+description: A customizable and extensible implementation of the execution engine for the Common Variability Language (CVL). 
+# Add post description (optional)
+img: vexgine.png # Add image post (optional)
+tags: [Programming, Learn] # add tag
+---
+A customizable and extensible implementation of the execution engine for the Common Variability Language (CVL).
+
+vEXgine fully supports the materialization process, including the delegation mechanism that can be extended with different delegation engines.
+
+It includes an implementation of the delegation engine based on Model-to-Model transformations using a general purpose transformation language such as ATL.
+
+The provided Java API of the execution engine allows extending the CVL approach to fulfill the industrial needs for variability modeling in Software Product Lines.
+
+[Go to page](https://caosd.lcc.uma.es/vexgine/)

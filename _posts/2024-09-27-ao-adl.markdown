@@ -1,0 +1,18 @@
+---
+layout: post
+title: Aspect-oriented architecture description language
+date: 2024-09-27 00:00:00 +0300
+description: An Aspect-Oriented Architecture Description Language. 
+# Add post description (optional)
+img: ao-adl.png # Add image post (optional)
+tags: [Programming, Learn] # add tag
+---
+An Aspect-Oriented Architecture Description Language.
+
+AO-ADL is an aspect-oriented architecture description language. The main contributions of AO-ADL are two. First contribution is the definition of a symmetric composition model, where functional and non-functional concerns are modeled by the same architectural block. AO-ADL models crosscutting concerns by components, but maintaining a ‘crosscutting relationship’ with other components. This means that in AO-ADL, additionally to the coordination and communication classical relationships, crosscutting becomes a new kind of relationship between components. Second contribution is the extension of the semantic of connectors with aspectual composition information. Another important contribution of this language is its mechanism for defining aspect-oriented connector templates.
+
+In order to make easier to the software architect the use of the AO-ADL language we have developed the AO-ADL Tool Suite. It is composed by a set of modules that allow the description of any element of the AO-ADL language (such as interfaces, components and connectors) or the description of an entire architecture.
+
+AO-ADL and AO-ADL Tool Suite are the result of our participation in the [AOSD-Europe Network of Excellence](https://cordis.europa.eu/project/id/004349). The Tool Suite can be downloaded following the instructions in the [Downloads](https://caosd.lcc.uma.es/ao-adl/tool-suite-download/) section, although, because AO-ADL Tool Suite is part of it, it can also be downloaded as part of the Atelier IDE Tools.
+
+[Go to page](https://caosd.lcc.uma.es/ao-adl/)

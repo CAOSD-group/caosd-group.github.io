@@ -1,0 +1,14 @@
+---
+layout: post
+title: Rhea
+date: 2024-09-27 00:00:00 +0300
+description: Web application for applying transformations (refactorings) to variability models . 
+# Add post description (optional)
+img: rhea.svg # Add image post (optional)
+tags: [Programming, Learn] # add tag
+---
+Web application for applying transformations (refactorings) to variability models with the aim of providing interoperability between SPL applications.
+
+[Go to page](https://rhea.caosd.lcc.uma.es/)
+
+[Paper](https://www.sciencedirect.com/science/article/pii/S0164121222002552?via%3Dihub)

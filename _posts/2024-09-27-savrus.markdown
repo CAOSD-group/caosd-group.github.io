@@ -1,0 +1,20 @@
+---
+layout: post
+title: SAVRUS. The Smart Analyser
+date: 2024-09-27 00:00:00 +0300
+description: Detection of influences between feature groups and complex quality attributes in colossal and partially measured spaces. 
+# Add post description (optional)
+img: savrus.png # Add image post (optional)
+tags: [Programming, Learn] # add tag
+---
+Detection of influences between feature groups and complex quality attributes in colossal and partially measured spaces through intelligent sampling and dynamic learning.
+
+SAVRUS, the Smart Analyser of Variability Requirements of Unknown Spaces
+
+Emergent application domains (e.g., Edge Computing/Cloud/B5G systems) are characterised by high variability, being complex to manually build, and lead to large configuration spaces. Due to the high number of variants present in such systems, modelled by large Variability Models (VMs), it is very difficult to find the best ranked product regarding certain Quality Attribute (QA) in short time. But, measuring QAs sometimes it is not trivial, requiring lot of time and resources as is the case of the energy footprint of software systems, the focus of this paper.
+
+Hence, we need a mechanism to analyse how features and their interactions influence energy footprint, but without needing to measuring all configurations. Sampling and predictive techniques while practical, base their accuracy on having uniform spaces or on some initial domain knowledge, requirements which are not always possible to achieve . Indeed, analyse the energy footprint of products in large configuration spaces raises specific requirements that we analyse in this work. In this paper, we present SAVRUS (Smart Analyser of Variability Requirements of Unknown Spaces), an approach for sampling and dynamic statistical learning in large domain-unknown spaces with partially measured QAs . SAVRUS reports in which degree are features and pairwise interactions influencing a certain QA, like energy efficiency. We validate and evaluate SAVRUS with a selection of likewise systems, which define large searching spaces containing scattered measurements.
+
+[Go to page](https://hadas.caosd.lcc.uma.es/savrus.php)
+
+[Paper](https://www.sciencedirect.com/science/article/pii/S0950705123003088?via%3Dihub)

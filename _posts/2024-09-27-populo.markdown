@@ -1,0 +1,25 @@
+---
+layout: post
+title: PÓPULO
+date: 2024-09-27 00:00:00 +0300
+description: A Tool for Debugging UML Models. 
+# Add post description (optional)
+img: populo.jpg # Add image post (optional)
+tags: [Programming, Learn] # add tag
+---
+A Tool for Debugging UML Models.
+
+A key factor for the successful adoption of Model-Driven Development (MDD) techniques is the ability to verify models, which can be achieved by model simulation and testing. This is already a reality for UML models, due mainly to the UML action language. However, this action language is purely object-oriented, which implies it needs to be extended to model applications of new software development paradigms, such as aspect-oriented applications. These extensions also require modifying the tools that execute the UML models, which, with the currently available tools, is often not possible. Furthermore, at the current time, there are no tools fully compliant with the UML action language. In order to overcome this limitation, Pópulo is an extensible UML model debugger, which interprets the UML action language, compliant with the standard, and that can be customised for executing profiled (i.e. extended) UML models, whose main characteristics are:
+
+- Pópulo is fully compliant with the UML action language, contrarily to existing tools, such as Rhapsody or Rational RT, whose are based in in-house versions of the action language not compliant with the standard.
+- Pópulo is largely extensible, being possible to add new user-defined actions for executing profiled UML models.
+
+Pópulo offers the typical functionalities of a debugger:
+
+- step by step execution.
+- specification of breakpoints.
+- change the value of the variables in runtime.
+
+UML models can be constructed using any available UML editor (e.g. MagicDraw). Thus, each development team can continue using their preferred UML editor in conjunction with Pópulo.
+
+[Go to page](https://caosd.lcc.uma.es/populo/)

@@ -1,0 +1,14 @@
+---
+layout: post
+title: NEMO2
+date: 2024-09-27 00:00:00 +0300
+description: Tool that applies bit-blasting to encode arithmetic expressions as propositional formulas and standards such as the Universal Variability Language (UVL). 
+# Add post description (optional)
+img: nemo2.png # Add image post (optional)
+tags: [Programming, Learn] # add tag
+---
+Tool that applies bit-blasting to encode arithmetic expressions as propositional formulas and standards such as the Universal Variability Language (UVL). This allows products to be efficiently counted by #SAT solvers and BDDs, enabling the discovery of near-optimal products. Collaboration between UMA and the University of Texas at Austin (Don Batory, United States).
+
+[Go to page](https://github.com/danieljmg/Nemo2_tool)
+
+[Paper](https://www.sciencedirect.com/science/article/pii/S0164121223001656?via%3Dihub)
