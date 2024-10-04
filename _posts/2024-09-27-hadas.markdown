@@ -2,12 +2,12 @@
 layout: post
 title: Hadas Green Energy Assistant
 date: 2024-09-27 00:00:00 +0300
-description: A customizable and extensible implementation of the execution engine for the Common Variability Language (CVL). 
+description: Tool for Analysis and Development of Sustainable Applications. 
 # Add post description (optional)
 img: hadas.png # Add image post (optional)
 tags: [Programming, Learn] # add tag
 ---
-Tool for Analysis and Development of Sustainable Applications
+Tool for Analysis and Development of Sustainable Applications.
 
 The impact of energy consumption on the environment and the economy is raising awareness of eco-efficient products. We have discovered three issues: the developer’s presumptions are usually wrong (Q1), the energy knowledge is highly dispersed (Q2), and producers do not want to invest more time and money than the earnings caused by energy-efficient labels (Q3). We are developing the HADAS eco-assistant (TIN2015-64841-R Spain funding), which helps researchers and developers to obtain insights, as graphs and statistical analyses, of specific systems and software configurations (A1). Those insights are calculated based on HADAS’s energy repository, a collaborative database which semi-automatically adds new experimental data performed by every energy researcher (A2). HADAS is a free web system (https://hadas.caosd.lcc.uma.es/), with a user-friendly interface globally accessible by any internet-capable device (e.g., computers, smart-phones, smart-tvs), and in which users can constraint the specific case to analyse (A3). Additionally, we have produced a micro-service and development software extensions, allowing programmers to obtain real-time energy consumption information while typing their code, so the money and time expended on analysing eco-efficient alternatives tends to zero (A3). We have already published several papers, including interesting energy insights discovered by using HADAS, decreasing the energy consumption of data-servers and Android applications up to 40%. Besides improving the accessibility of HADAS, obtaining more energy-data of more cases, and improving the mathematical analyses, we plan to design and stablish an energy labelling system, similar to the one on household appliances (e.g., A+, A), where users can select a software based on its energy-efficiency. We welcome energy researchers to include more data, and developers to use and discuss HADAS and their insights thus problems as the capacity of a battery, or even the climate change are reduced.
 
